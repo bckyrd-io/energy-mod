@@ -1,2 +1,2 @@
-# PowerstationCtrl
- pronoursed as powerstation controller. automated plus mobile control remotely
+# PMODULE
+ pronoursed as powerstation module. automated plus mobile control remotely
