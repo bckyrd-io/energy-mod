@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwitchActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="100dp"
+            app:srcCompat="@drawable/switch_on" />
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="status is on"
+            android:textColor="@color/purple_700" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="100dp"
+            app:srcCompat="@drawable/switch_off" />
+
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/purple_700"
+            android:text="status is off" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
