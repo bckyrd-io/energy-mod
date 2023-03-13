@@ -23,7 +23,7 @@
             app:srcCompat="@drawable/switch_on" />
 
         <CheckedTextView
-            android:id="@+id/checkedTextView_one"
+            android:id="@+id/textView_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
@@ -50,7 +50,7 @@
 
 
         <CheckedTextView
-            android:id="@+id/checkedTextView_two"
+            android:id="@+id/textView_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
