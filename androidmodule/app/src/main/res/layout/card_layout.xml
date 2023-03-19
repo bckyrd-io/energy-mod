@@ -17,13 +17,13 @@
             android:orientation="horizontal"
             android:paddingLeft="14dp"
             android:paddingRight="14dp"
-            android:paddingTop="28dp"
-            android:paddingBottom="28dp">
+            android:paddingTop="48dp"
+            android:paddingBottom="48dp">
 
             <ImageView
                 android:id="@+id/card_image"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_launcher_background" />
 
